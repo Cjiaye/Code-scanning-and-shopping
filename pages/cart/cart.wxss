@@ -6,6 +6,53 @@
 .list{
   padding-bottom : 181rpx;
 }
+.list-item{
+  border-bottom: 1px solid #ccc;
+  padding: 20rpx;
+}
+.list-item-sku{
+  color: #ccc;
+  margin: 10rpx 0;
+}
+.list-item-price{
+  color: #f60;
+}
+.list-item-button-group{
+  display: flex;
+  justify-content: flex-end;
+}
+/* .list-item-button-group view , .list-item-button-group input{
+  height: 80rpx;
+} */
+.decrement,.increment{
+  width: 60rpx;
+  height: 60rpx;
+  border: none;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  line-height: 60rpx;
+}
+.decrement{
+  border: 1rpx solid #FEBE1B;
+  color: #FEBE1B;
+}
+.increment{
+  border: 1rpx solid #FEBE1B;
+  color: #FEBE1B;
+}
+.count{
+  border: 2rpx solid #FEBE1B;
+  box-sizing: border-box;
+  height: 60rpx;
+  border-radius: 30rpx;
+  width: 150rpx;
+  margin: 0 10rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
 .settle-ment{
   background-color: yellow;
   position: fixed;
